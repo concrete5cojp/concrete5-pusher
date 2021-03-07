@@ -1,5 +1,5 @@
 # concrete5cojp/concrete5-pusher
-A concrete5 package to add Pusher Channels HTTP PHP Library and manage API key.
+A concrete5 package to add [Pusher Channels HTTP PHP Library](https://github.com/pusher/pusher-http-php) and manage API key.
 
 ## Getting Started
 
