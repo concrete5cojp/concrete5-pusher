@@ -1,0 +1,13 @@
+{
+    "name": "concrete5cojp/concrete5-pusher",
+    "description": "A concrete5 package to add Pusher Channels HTTP PHP Library and manage API key.",
+    "type": "concrete5-package",
+    "license": "MIT",
+    "require": {
+        "pusher/pusher-php-server": "^4.0"
+    },
+    "replace": {
+        "psr/log": "~1.0",
+        "paragonie/random_compat": "~2.0"
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Pusher Channels"
+              path="/dashboard/system/pusher"
+              filename="/dashboard/system/pusher/view.php"
+              pagetype=""
+              description=""
+              package="pusher"/>
+        <page name="API"
+              path="/dashboard/system/pusher/api"
+              filename="/dashboard/system/pusher/api.php"
+              pagetype=""
+              description=""
+              package="pusher"/>
+    </singlepages>
+</concrete5-cif>
