@@ -20,7 +20,7 @@ composer install
 
 ```
 $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
-$pusher = $this->app->make(\Pusher\Pusher::class);
+$pusher = $app->make(\Pusher\Pusher::class);
 $pusher->trigger('my-channel', 'my-event', ['message' => 'Test]);
 ```
 
