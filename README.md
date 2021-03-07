@@ -3,7 +3,7 @@ A concrete5 package to add [Pusher Channels HTTP PHP Library](https://github.com
 
 ## Getting Started
 
-Clone this repository and install dependencies
+1. Clone this repository and install dependencies
 
 ```
 cd YOUR_CONCRETE_ROOT/packages
@@ -12,9 +12,11 @@ cd pusher
 composer install
 ```
 
-Provide API key and other required information on Dashboard > System & Settings > Pusher Channels > API.
+2. Install the package from your dashboard
 
-Then you can use the library like below
+3. Provide API key and other required information on Dashboard > System & Settings > Pusher Channels > API.
+
+4. Then you can use the library like below
 
 ```
 $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
