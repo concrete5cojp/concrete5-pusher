@@ -21,7 +21,7 @@ composer install
 ```
 $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
 $pusher = $app->make(\Pusher\Pusher::class);
-$pusher->trigger('my-channel', 'my-event', ['message' => 'Test]);
+$pusher->trigger('my-channel', 'my-event', ['message' => 'Test']);
 ```
 
 ## Example extermal form
