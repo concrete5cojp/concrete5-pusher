@@ -3,13 +3,24 @@ A concrete5 package to add Pusher Channels HTTP PHP Library and manage API key.
 
 ## Getting Started
 
+Clone this repository and install dependencies
+
+```
+cd YOUR_CONCRETE_ROOT/packages
+git clone git@github.com:concrete5cojp/concrete5-pusher.git pusher
+cd pusher
+composer install
+```
+
+Provide API key and other required information on Dashboard > System & Settings > Pusher Channels > API.
+
+Then you can use the library like below
+
 ```
 $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
 $pusher = $this->app->make(\Pusher\Pusher::class);
 $pusher->trigger('my-channel', 'my-event', ['message' => 'Test]);
 ```
-
-You must provide all information on Dashboard > System & Settings > Pusher Channels > API before using the library
 
 ## Example extermal form
 
