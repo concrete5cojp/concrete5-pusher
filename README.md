@@ -11,6 +11,6 @@ $pusher->trigger('my-channel', 'my-event', ['message' => 'Test]);
 
 You must provide all information on Dashboard > System & Settings > Pusher Channels > API before using the library
 
-## Example estermal form
+## Example extermal form
 
 You can test to use Pusher Channels by just copying `example/blocks/external_form` folder to `YOUR_CONCRETE_ROOT/application/blocks/external_form`
